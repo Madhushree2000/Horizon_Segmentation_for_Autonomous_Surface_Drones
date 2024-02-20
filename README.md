@@ -19,9 +19,8 @@ UNet is a convolutional neural network architecture designed for biomedical imag
 </div>
 
 ## Evaluation metric
-Evaluation metrics are quantitative measures used to assess the performance and effectiveness of a statistical or machine learning model. These metrics provide insights into how well the model is performing and help in comparing different models or algorithms.
 
-The Dice similarity coefficient, also known as Dice score or Dice index, is a widely used evaluation metric in image segmentation tasks, particularly in biomedical image analysis. It measures the similarity between two sets of data, often used to assess the performance of a segmentation algorithm by comparing the overlap between the predicted segmentation mask and the ground truth mask. The Dice score ranges from 0 to 1, where a score of 1 indicates perfect overlap between the predicted and ground truth masks, while a score of 0 indicates no overlap. It is defined as the ratio of twice the intersection of the predicted and ground truth masks to the sum of the sizes of both masks.
+The Dice similarity coefficient, also known as Dice score or Dice index, is used as an evaluation metric in this project. It measures the similarity between two sets of data, often used to assess the performance of a segmentation algorithm by comparing the overlap between the predicted segmentation mask and the ground truth mask. The Dice score ranges from 0 to 1, where a score of 1 indicates perfect overlap between the predicted and ground truth masks, while a score of 0 indicates no overlap. It is defined as the ratio of twice the intersection of the predicted and ground truth masks to the sum of the sizes of both masks.
 
 The formula for Dice score is:
 
